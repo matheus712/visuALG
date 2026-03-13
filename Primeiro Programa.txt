@@ -1,0 +1,24 @@
+algoritmo "Primeiro Programa"
+
+var
+   nome: caractere //letras
+   idade: inteiro //numeros inteiros 
+   salario: real // numeros com vigulas 
+   contratado: logico // verdadeiro ou falso
+
+inicio
+//atribuição 
+nome <- "joão caina de lucas"
+idade <- 18
+salario <- 1800.3098
+contratado <- verdadeiro
+
+// programa 
+escreval(nome)
+// leia(nome)
+escreval(idade)
+escreval(salario)
+escreval(salario 1:2)// dados tratados
+escreval("o funcionario ", nome,  " consta o estado decontrato com: ", contratado)
+escreva("fim de programa")
+fimalgoritmo

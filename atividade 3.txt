@@ -1,0 +1,22 @@
+algoritmo "Primeiro Programa"
+
+var
+  lado: inteiro
+  resultado: inteiro
+
+inicio
+  //atribuição
+  escreval ("===calcule o perímetro do quadrado====")
+  escreva ("por favor digite o valor da lado: ")
+
+  leia(lado)
+
+
+ 
+  //pprograma
+  resultado <- (lado)*4
+
+  escreval("A perìmetro do teu quadrado é de " , resultado )
+  escreva("fim de programa")
+
+fimalgoritmo

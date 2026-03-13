@@ -1,0 +1,22 @@
+algoritmo "Primeiro Programa"
+
+var
+  comprimento: inteiro
+  largura: inteiro
+  resultado: inteiro
+
+inicio
+//atribuição 
+escreval("===calculadora de area de retângulo====")
+escreva ("por favor digite o valor do comprimento: ")
+leia(comprimento)
+escreva("perfeito, agora degite o valor da largura: ")
+leia(largura)
+
+//pprograma
+resultado <- (comprimento * largura)/2
+
+escreval("A AREA do teu retângulo é de " , resultado )
+escreva("fim de programa")
+
+fimalgoritmo

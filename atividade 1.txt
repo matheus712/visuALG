@@ -1,0 +1,23 @@
+algoritmo "Primeiro Programa"
+
+var
+  base: inteiro
+  altura: inteiro
+  resultado: inteiro
+
+inicio
+///atribuição
+
+  escreval("====calculadora de area de triangulo====")
+  escreva("por favor digite o valor da base: ")
+  leia(base)
+  escreva("perfeito, agora degite o valor da altura: ")
+  leia(altura)
+
+  //pprograma
+  resultado <- (base * altura)/2
+
+  escreval("A AREA do teu triangulo é de " , resultado )
+  escreva("fim de programa")
+
+fimalgoritmo
