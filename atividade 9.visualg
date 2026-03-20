@@ -1,0 +1,21 @@
+algoritmo "primeiro programa"
+
+var 
+capital, taxa, tempo, juros: real
+
+inicio
+
+escreva("digite o capital (valor): ")
+leia(capital)
+
+escreva("digite a taxa de juros (%): ")
+leia(juros)
+
+escreva("digite o tempo (meses): ")
+leia(tempo)
+
+juros <- capital * (taxa/ 100) * tempo
+
+escreva("os juros são de valor: ", juros 0:2)
+
+fimalgoritmo

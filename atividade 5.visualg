@@ -1,0 +1,13 @@
+algoritmo "volume_cubo"
+
+var
+   lado, volume: real
+
+inicio
+   escreva("Digite o lado do cubo: ")
+   leia(lado)
+
+   volume <- lado * lado * lado
+
+   escreval("Volume do cubo: ", volume:0:2)
+fimalgoritmo

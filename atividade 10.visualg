@@ -1,0 +1,19 @@
+algoritmo "primeito programa"
+
+var 
+salario, aumento, novo_salario: real
+
+inicio 
+
+escreva("digite o salário atual (valor): ")
+leia(salario)
+
+escreva("digite o percentual de aumento (%):")
+leia(aumento)
+
+novo_salario <- salario * (1 + aumento / 100)
+ 
+ escreva("o novo salário será de valor: ", novo_salario:0:2)
+
+ fimalgoritmo
+ 
