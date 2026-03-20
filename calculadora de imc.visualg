@@ -1,0 +1,17 @@
+algoritmo "primeiro program"
+
+var 
+peso, altura, imc: real 
+
+inicio
+escreva("digite seu peso(kg): ")
+leia (peso)
+
+escreva("digite sua altura (m): ")
+leia(altura)
+
+imc <- peso / (altura * altura)
+
+escreva ("seu IMC é: ", imc:0:2)
+
+fimalgoritmo

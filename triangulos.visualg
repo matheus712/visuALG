@@ -1,0 +1,33 @@
+algoritmo "TiposDeTriangulo"
+
+var
+   A, B, C: real
+
+inicio
+   escreva("Digite o lado A: ")
+   leia(A)
+
+   escreva("Digite o lado B: ")
+   leia(B)
+
+   escreva("Digite o lado C: ")
+   leia(C)
+
+   se (A + B > C) e (A + C > B) e (B + C > A) entao
+      
+      se (A = B) e (B = C) entao
+         escreval("Triângulo EQUILÁTERO")
+      
+      senao
+         se (A = B) ou (A = C) ou (B = C) entao
+            escreval("Triângulo ISÓSCELES")
+         senao
+            escreval("Triângulo ESCALENO")
+         fimse
+      fimse
+
+   senao
+      escreval("Não forma um triângulo")
+   fimse
+
+fimalgoritmo
